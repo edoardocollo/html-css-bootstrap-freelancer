@@ -1,11 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+nav a {
+  padding: 0 !important;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bolder !important;
+  font-size: 4.5em !important;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 3em !important;
+  font-weight: bolder !important;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-gray {
+  background-color: #333;
+}
+.p-top-170 {
+  padding-top: 170px;
+}
+.m-bottom-30 {
+  margin-bottom: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
 .white-text {
   color: white;
+}
+.navbar a {
+  color: white;
+  text-transform: uppercase;
 }
 .bg-gray-free {
   background-color: #2c3e50;
 }
 .navbar {
   height: 100px;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  font-size:
+}
+.navbar-brand {
+  font-size: 1.75em !important;
+  font-weight: bolder;
+}
+.navbar-header {
+  padding-top: calc((100px - 1.75em)/2)
+}
+.navbar-right{
+  padding-top: calc((100px - 1em)/2) ;
+}
+.navbar-right a{
+  font-size: 1em;
+  font-weight: bolder !important;
+  padding: 0 20px !important;
 }
 .jumbotron-container {
   background-color: #1abc9c;
@@ -17,8 +70,21 @@
   width: 240px;
 }
 .portfolio_container img {
-  width: 332px;
+  width: 350px;
 }
 .second_section {
   background-color: #1abc9c;
+}
+.spacer-star span {
+  display: inline-block;
+}
+.spacer-star hr {
+  width: 200px;
+  height: 4px;
+  border: 0;
+  border-radius: 2px;
+}
+.glyphicon-star {
+  font-size: 40px;
+  padding:  0 20px;
 }
