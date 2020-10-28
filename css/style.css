@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2em !important;
 }
 nav a {
   padding: 0 !important;
@@ -17,6 +18,9 @@ h2 {
 .bg-white {
   background-color: white;
 }
+.p-100-0 {
+  padding: 100px 0;
+}
 .bg-gray {
   background-color: #333;
 }
@@ -25,6 +29,9 @@ h2 {
 }
 .m-bottom-30 {
   margin-bottom: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
 }
 .mb-30 {
   margin-bottom: 30px;
@@ -87,4 +94,36 @@ h2 {
 .glyphicon-star {
   font-size: 40px;
   padding:  0 20px;
+}
+.btn-default {
+color: white !important;
+font-size: 1em !important;
+background-color: rgba(255, 255, 255, 0) !important;
+border: 2px solid white !important;
+padding: 20px 20px !important;
+border-radius: 10px !important;
+}
+.glyphicon-saved {
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+.form-group {
+  color: gray;
+  font-size: 1.25em;
+}
+.form-group input {
+  border-bottom: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0;
+
+}
+.form-group textarea {
+  border-bottom: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0;
+
 }
