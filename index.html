@@ -7,43 +7,67 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Freelancer</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
 <body>
-  <header>
+
+  <!-- header -->
+  <header >
+
+    <!-- navbar -->
     <nav class="navbar bg-gray-free navbar-fixed-top">
+
+      <!-- container -->
       <div class="container ">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+
+          <!-- hamburger -->
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <!-- /hamburger -->
+
+          <!-- logo -->
           <a class="navbar-brand line_100 " href="#">start bootstrap</a>
+          <!-- /logo -->
+
+
         </div>
+        <!-- /toggle -->
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <!-- navbar right -->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">portfolio</a></li>
             <li><a href="#">about</a></li>
             <li><a href="#">contact</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+          <!-- navbar right -->
 
-    <div class="container-fluid jumbotron-container">
+
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- container -->
+
+    </nav>
+    <!-- navbar -->
+
+    <div class="jumbotron jumbotron-container p-100-0">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12-lg align-self-center text-center white-text">
-            <img class="p-top-170" src="img/jumbo-img.svg" alt="">
+            <img class="p-top-100" src="img/jumbo-img.svg" alt="">
             <h1>start bootstrap</h1>
             <div class="spacer-star m-bottom-30">
               <span class="trattino">
@@ -61,45 +85,140 @@
       </div>
     </div>
   </header>
+  <!-- /header -->
+
+
+  <!-- main content -->
   <main>
+
+    <!-- portfolio section -->
     <section class="first_section p-100-0">
+
+      <!-- container -->
       <div class="container portfolio_container text-center">
-        <h2>portfolio</h2>
-        <div class="spacer-star m-bottom-30">
-          <span class="trattino">
-            <hr class="bg-gray">
-          </span>
-          <span class="glyphicon glyphicon-star"></span>
-          <span class="trattino">
-            <hr class="bg-gray">
-          </span>
+
+        <!-- row -->
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+
+          <!-- col 12 -->
+          <div class="col-lg-12">
+            <h2>portfolio</h2>
+
+            <!-- star -->
+            <div class="spacer-star m-bottom-30">
+              <span class="trattino">
+                <hr class="bg-gray">
+              </span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="trattino">
+                <hr class="bg-gray">
+              </span>
+            <!-- /star -->
+
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+          <!-- /col 12 -->
+
+          <!-- col img -->
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-30 img relative">
+            <div class="img-card">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <span class="glyphicon glyphicon-plus"></span>
+                </div>
+              </div>
+              <img class="img-rounded img-responsive" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
+          <!-- /col img -->
+
+          <!-- col img -->
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-30 img relative">
+            <div class="img-card">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <span class="glyphicon glyphicon-plus"></span>
+                </div>
+              </div>
+              <img class="img-rounded img-responsive" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+          <!-- /col img -->
+
+          <!-- col img -->
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-30 img relative">
+            <div class="img-card">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <span class="glyphicon glyphicon-plus"></span>
+                </div>
+              </div>
+              <img class="img-rounded img-responsive" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+          <!-- /col img -->
+
+          <!-- col img -->
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-30 img relative">
+            <div class="img-card">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <span class="glyphicon glyphicon-plus"></span>
+                </div>
+              </div>
+              <img class="img-rounded img-responsive" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
-            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
+          <!-- /col img -->
+
+          <!-- col img -->
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-30 img relative">
+            <div class="img-card">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <span class="glyphicon glyphicon-plus"></span>
+                </div>
+              </div>
+              <img class="img-rounded img-responsive" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+            </div>
           </div>
+          <!-- /col img -->
+
+          <!-- col img -->
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-30 img relative">
+            <div class="img-card">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <span class="glyphicon glyphicon-plus"></span>
+                </div>
+              </div>
+              <img class="img-rounded img-responsive" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
+            </div>
+          </div>
+          <!-- /col img -->
+
         </div>
+        <!-- /row -->
+
       </div>
+      <!-- /container -->
+
     </section>
+    <!-- portfolio section -->
+
+    <!-- about section -->
     <section class="second_section white-text p-100-0">
+
+      <!-- container -->
       <div class="container">
+
+        <!-- row -->
         <div class="row">
+
+          <!-- col 12 -->
           <div class="col-lg-12 text-center">
             <h2>about</h2>
+
+            <!-- star  -->
             <div class="spacer-star m-bottom-30">
               <span class="trattino">
                 <hr class="bg-white">
@@ -108,62 +227,107 @@
               <span class="trattino">
                 <hr class="bg-white">
               </span>
+            <!-- /star  -->
+
           </div>
+          <!-- /col 12 -->
+
+          <!-- col text -->
           <div class="col-lg-4 col-lg-offset-2 col-md-12 col-sm-12 text-left">
             <p>
               Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
             </p>
           </div>
+          <!-- /col text -->
+
+          <!-- col text -->
           <div class="col-lg-4 col-md-12 col-sm-12 text-left">
             <p>
               You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
             </p>
           </div>
+          <!-- /col text -->
+
+          <!-- button col -->
           <div class="col-lg-12 text-center col-md-12 col-sm-12 ">
-            <button type="button" class="btn btn-default mt-40"><span class="glyphicon glyphicon-saved"></span>Free Download!</button>
+            <button type="button" class="btn dtn-download mt-40"><span class="glyphicon glyphicon-saved"></span>Free Download!</button>
           </div>
+          <!-- /button col -->
+
         </div>
+        <!-- /row -->
+
       </div>
+      <!-- /container -->
+
     </section>
+    <!-- about section -->
+
+    <!-- contact section -->
     <section class="third_section p-100-0">
+
+      <!-- container -->
       <div class="container text-center">
-        <h2>contact me</h2>
-        <div class="spacer-star m-bottom-30">
-          <span class="trattino">
-            <hr class="bg-gray">
-          </span>
-          <span class="glyphicon glyphicon-star"></span>
-          <span class="trattino">
-            <hr class="bg-gray">
-          </span>
+
+        <!-- col 12   -->
+        <div class="col-lg-12">
+          <h2>contact me</h2>
+
+          <!-- star -->
+          <div class="spacer-star m-bottom-30">
+            <span class="trattino">
+              <hr class="bg-gray">
+            </span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="trattino">
+              <hr class="bg-gray">
+            </span>
+          </div>
+          <!-- star -->
+
         </div>
+        <!-- /col 12   -->
+
+        <!-- row -->
         <div class="row">
+
+          <!-- col form -->
           <div class="col-lg-8 col-lg-offset-2 text-left">
             <form>
               <div class="form-group">
                 <label class="" for="nameInput">Name</label>
-                <input type="text" class="form-control" id="nameInput">
+                <input type="text" class="form-control box-shadow" id="nameInput">
               </div>
               <div class="form-group">
                 <label class="" for="emailInput">Email address</label>
-                <input type="email" class="form-control" id="emailInput">
+                <input type="email" class="form-control box-shadow" id="emailInput">
               </div>
               <div class="form-group">
                 <label class="" for="numberInput">Phone Number</label>
-                <input type="text" class="form-control" id="numberInput">
+                <input type="text" class="form-control box-shadow" id="numberInput">
               </div>
 
               <div class="form-group">
                 <label class="" for="messageTextarea">Message</label>
-                <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+                <textarea class="form-control box-shadow" id="messageTextarea" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-submit">Send</button>
+              <button type="submit" class="btn btn-send">Send</button>
             </form>
           </div>
+          <!-- /col form -->
+
         </div>
+        <!-- /row -->
+
       </div>
+      <!-- /container -->
+
     </section>
+    <!-- /contact section -->
+
   </main>
+  <!-- /main content -->
+
   <footer class="main_footer white-text">
     <div class="container-fluid bg-gray-free">
       <div class="container">
@@ -174,6 +338,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 text-center m-bottom-30">
             <h3>around the web</h3>
+            <span><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i><i class="fab fa-linkedin"></i><i class="fas fa-globe"></i></span>
           </div>
           <div class="col-lg-4 col-md-4  offset-md-3 col-sm-12 text-center m-bottom-30">
             <h3>about freelancer</h3>
@@ -181,10 +346,10 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <span>Copyright © Your Website 2020</span>
-        </div>
+    </div>
+    <div class="row bg-darkblue h100">
+      <div class="col-md-12 text-center p-top-40">
+        <span class="">Copyright © Your Website 2020</span>
       </div>
     </div>
   </footer>

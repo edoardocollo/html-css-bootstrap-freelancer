@@ -1,28 +1,39 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em !important;
+  font-family: 'Montserrat', sans-serif ;
+  font-size: 2em ;
 }
 nav a {
-  padding: 0 !important;
+  padding: 0 ;
 }
 h1 {
   text-transform: uppercase;
-  font-weight: bolder !important;
-  font-size: 4.5em !important;
+  font-weight: bolder ;
+  font-size: 3em ;
 }
 h2 {
   text-transform: uppercase;
-  font-size: 3em !important;
-  font-weight: bolder !important;
+  font-size: 2em ;
+  font-weight: bolder ;
 }
 h3 {
-  font-size: 1.25em !important;
-  font-weight: bolder !important;
+  font-size: 1.25em ;
+  font-weight: bolder;
   text-transform: uppercase;
 
 }
+
+i {
+  font-size: 40px;
+  margin: 0 5px;
+}
+.h100 {
+  height: 100px;
+}
 .bg-white {
   background-color: white;
+}
+.bg-darkblue {
+  background-color: #1a252f;
 }
 .p-100-0 {
   padding: 100px 0;
@@ -30,9 +41,13 @@ h3 {
 .bg-gray {
   background-color: #333;
 }
-.p-top-170 {
-  padding-top: 170px;
+.p-top-100 {
+  padding-top: 100px;
 }
+.p-top-40 {
+  padding-top: 40px;
+}
+
 .m-bottom-30 {
   margin-bottom: 30px;
 }
@@ -58,14 +73,13 @@ h3 {
 }
 .navbar {
   height: 100px;
-  margin-bottom: 0 !important;
-  border-radius: 0 !important;
-  font-size:
+  margin-bottom: 0 ;
+  border-radius: 0 ;
 }
 .navbar-brand {
-  font-size: 1.75em !important;
+  font-size: 1.50em;
   font-weight: bolder;
-  padding-top: calc((100px - 2.5em)/2) !important;
+  padding-top: calc((100px - 3em)/2) !important;
 
 }
 .navbar-header {
@@ -76,10 +90,10 @@ h3 {
 }
 .navbar-right a{
   font-size: 1em;
-  font-weight: bolder !important;
+  font-weight: bolder;
   padding: 0 20px !important;
 }
-.jumbotron-container {
+.jumbotron {
   background-color: #1abc9c;
 }
 .jumbotron-container .row {
@@ -88,9 +102,6 @@ h3 {
 .jumbotron-container img {
   width: 240px;
 }
-.portfolio_container img {
-  width: 350px;
-}
 .second_section {
   background-color: #1abc9c;
 }
@@ -98,7 +109,7 @@ h3 {
   display: inline-block;
 }
 .spacer-star hr {
-  width: 200px;
+  width: 100px;
   height: 4px;
   border: 0;
   border-radius: 2px;
@@ -107,13 +118,13 @@ h3 {
   font-size: 40px;
   padding:  0 20px;
 }
-.btn-default {
-color: white !important;
-font-size: 1em !important;
-background-color: rgba(255, 255, 255, 0) !important;
-border: 2px solid white !important;
-padding: 20px 20px !important;
-border-radius: 10px !important;
+.dtn-download {
+color: white ;
+font-size: 1em ;
+background-color: rgba(255, 255, 255, 0) ;
+border: 2px solid white ;
+padding: 20px 20px ;
+border-radius: 10px ;
 }
 .glyphicon-saved {
   font-size: 1.2em;
@@ -124,7 +135,7 @@ border-radius: 10px !important;
   font-size: 1.25em;
 }
 .form-group input {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
@@ -132,22 +143,60 @@ border-radius: 10px !important;
 
 }
 .form-group textarea {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
   border-radius: 0;
-
+  resize: none;
 }
-.btn-submit {
-  color: white !important;
-  font-size: 1em !important;
-  background-color: #1abc9c !important;
-  padding: 20px 20px !important;
-  border-radius: 10px !important;
+.box-shadow {
+  box-shadow: none !important;
+}
+.btn-send {
+  color: white;
+  font-size: 1em;
+  background-color: #1abc9c;
+  padding: 20px 20px;
+  border-radius: 10px;
 
 }
 .paragrafo-300 {
   width: 300px;
   margin: auto;
+}
+.relative {
+  position: relative;
+}
+.position-a {
+  position: absolute;
+}
+label {
+  font-weight: 400;
+}
+.overlay {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  height: 100%;
+  width: calc(100% - 30px);
+  opacity: 0;
+  border-radius: 5px;
+  transition: .5s ease;
+  background-color: #1abc9c;
+}
+.img:hover .overlay {
+  opacity: 0.8;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.glyphicon-plus {
+  color: white;
+  font-size: 60px;
 }
