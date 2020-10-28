@@ -1,3 +1,13 @@
+/* UTILITY CLASS */
+.relative {
+  position: relative;
+}
+.position-a {
+  position: absolute;
+}
+/* /UTILITY CLASS */
+
+
 body {
   font-family: 'Montserrat', sans-serif ;
   font-size: 2em ;
@@ -21,25 +31,34 @@ h3 {
   text-transform: uppercase;
 
 }
-
 i {
   font-size: 40px;
   margin: 0 5px;
 }
-.h100 {
-  height: 100px;
-}
+
+/* COLOR */
 .bg-white {
   background-color: white;
 }
 .bg-darkblue {
   background-color: #1a252f;
 }
-.p-100-0 {
-  padding: 100px 0;
-}
 .bg-gray {
   background-color: #333;
+}
+.bg-green {
+  background-color: #1abc9c;
+}
+.bg-gray-free {
+  background-color: #2c3e50;
+}
+.white-text {
+  color: white;
+}
+
+/* MARGIN & PADDING */
+.p-100-0 {
+  padding: 100px 0;
 }
 .p-top-100 {
   padding-top: 100px;
@@ -47,7 +66,6 @@ i {
 .p-top-40 {
   padding-top: 40px;
 }
-
 .m-bottom-30 {
   margin-bottom: 30px;
 }
@@ -57,9 +75,33 @@ i {
 .mb-30 {
   margin-bottom: 30px;
 }
-.white-text {
-  color: white;
+.h100 {
+  height: 100px;
 }
+/* BUTTONS */
+.dtn-download {
+  color: white ;
+  font-size: 1em ;
+  background-color: rgba(255, 255, 255, 0) ;
+  border: 2px solid white ;
+  padding: 20px 20px ;
+  border-radius: 10px ;
+}
+.glyphicon-saved {
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+.btn-send {
+  color: white;
+  font-size: 1em;
+  background-color: #1abc9c;
+  padding: 20px 20px;
+  border-radius: 10px;
+
+}
+
+
+/* NAVBAR */
 .navbar a {
   color: white;
   text-transform: uppercase;
@@ -67,9 +109,6 @@ i {
 .navbar a:hover {
   color: #1abc9c;
   background-color: rgba(255, 255, 255, 0) !important;
-}
-.bg-gray-free {
-  background-color: #2c3e50;
 }
 .navbar {
   height: 100px;
@@ -93,18 +132,16 @@ i {
   font-weight: bolder;
   padding: 0 20px !important;
 }
-.jumbotron {
-  background-color: #1abc9c;
-}
+
+/* JUMBOTRON */
 .jumbotron-container .row {
   height: 680px;
 }
 .jumbotron-container img {
   width: 240px;
 }
-.second_section {
-  background-color: #1abc9c;
-}
+
+/* STAR */
 .spacer-star span {
   display: inline-block;
 }
@@ -118,18 +155,8 @@ i {
   font-size: 40px;
   padding:  0 20px;
 }
-.dtn-download {
-color: white ;
-font-size: 1em ;
-background-color: rgba(255, 255, 255, 0) ;
-border: 2px solid white ;
-padding: 20px 20px ;
-border-radius: 10px ;
-}
-.glyphicon-saved {
-  font-size: 1.2em;
-  padding-right: 10px;
-}
+
+/* FORM */
 .form-group {
   color: gray;
   font-size: 1.25em;
@@ -153,27 +180,15 @@ border-radius: 10px ;
 .box-shadow {
   box-shadow: none !important;
 }
-.btn-send {
-  color: white;
-  font-size: 1em;
-  background-color: #1abc9c;
-  padding: 20px 20px;
-  border-radius: 10px;
-
-}
 .paragrafo-300 {
   width: 300px;
   margin: auto;
 }
-.relative {
-  position: relative;
-}
-.position-a {
-  position: absolute;
-}
 label {
   font-weight: 400;
 }
+
+/* OVERLAY */
 .overlay {
 
   position: absolute;
@@ -199,4 +214,35 @@ label {
 .glyphicon-plus {
   color: white;
   font-size: 60px;
+}
+
+/* MEDIA QUERY */
+@media all and (max-width: 1200px) {
+  body {
+    font-size: 3em ;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: bolder ;
+    font-size: 2em ;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.75em ;
+    font-weight: bolder ;
+  }
+  h3 {
+    font-size: 1em ;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+  }
+  .navbar-right a{
+    font-size: 18px;
+  }
+  .navbar-brand {
+    font-size: 1.10em;
+  }
+
 }
