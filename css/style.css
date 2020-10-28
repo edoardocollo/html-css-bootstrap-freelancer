@@ -15,6 +15,12 @@ h2 {
   font-size: 3em !important;
   font-weight: bolder !important;
 }
+h3 {
+  font-size: 1.25em !important;
+  font-weight: bolder !important;
+  text-transform: uppercase;
+
+}
 .bg-white {
   background-color: white;
 }
@@ -43,6 +49,10 @@ h2 {
   color: white;
   text-transform: uppercase;
 }
+.navbar a:hover {
+  color: #1abc9c;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
 .bg-gray-free {
   background-color: #2c3e50;
 }
@@ -55,9 +65,11 @@ h2 {
 .navbar-brand {
   font-size: 1.75em !important;
   font-weight: bolder;
+  padding-top: calc((100px - 2.5em)/2) !important;
+
 }
 .navbar-header {
-  padding-top: calc((100px - 1.75em)/2)
+  padding-top: calc((100px - 1.75em)/2);
 }
 .navbar-right{
   padding-top: calc((100px - 1em)/2) ;
@@ -126,4 +138,16 @@ border-radius: 10px !important;
   border-left: 0px;
   border-radius: 0;
 
+}
+.btn-submit {
+  color: white !important;
+  font-size: 1em !important;
+  background-color: #1abc9c !important;
+  padding: 20px 20px !important;
+  border-radius: 10px !important;
+
+}
+.paragrafo-300 {
+  width: 300px;
+  margin: auto;
 }
